@@ -1,0 +1,28 @@
+# Zależności i pakiety
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Wyniki budowania projektu (Build output)
+dist/
+.astro/
+
+# Środowisko i zmienne prywatne
+.env
+.env.production
+.env.local
+*.env
+
+# Pamięć podręczna narzędzi
+.cache/
+.parcel-cache/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Logi Firebase
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
